@@ -1,0 +1,18 @@
+
+<html>
+    <% include ../componentes/head.page.1.ejs %>
+    <body class="drawer drawer--left">
+        <% include ../componentes/menu.page.1.ejs %>
+
+      <script>
+      $(document).ready(function() {
+     
+      $.growl.warning({ title: "Permissão Negada", message: "Sem permissão para acessar essa pagina!", location: "tc" });
+
+});
+      
+      </script>
+
+<script src="../../js/consultaLivro.js" type="text/javascript"></script>
+    </body>
+</html>
